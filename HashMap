@@ -1,0 +1,79 @@
+package test;
+
+
+
+//class Rec{
+//	int func(int n) {
+//		int res;
+//		if (n==1) {
+//			return 1;
+//			res=func(n-1);
+//			return res;
+//			
+//		}
+//	}
+//}
+
+public class Demo {
+	public  void Init() {
+		s1=sm1("1");
+		
+	}
+	static String s1=sm1("a");
+	String s3=sm1("2");{
+		s1=sm1("3");
+	
+	}
+	static {
+		s1=sm1("b");
+	}
+	static String s2=sm1("c");
+	String s4=sm1("4");
+
+	public static void main(String[] args) {
+		Demo demo=new Demo();}
+		private static String sm1(String s) {
+			System.out.println(s); return s;
+		}
+		//Rec oRec=new Rec();System.out.println(oRec.func(5));
+		
+		
+		
+//		// TODO Auto-generated method stub
+//		for:for (int i = 0; i <10; i++) {
+//for (int j = 0; j <10; j++) {
+//	if (i+j>10) break for;
+//	
+//}			
+//System.out.println("hello");
+//		}
+//		
+		
+		
+//		int var=20,i=0;
+//		do {
+//			while (true) {
+//				if(i++>var)break;
+//				
+//			}
+//		}while(i<var--);
+//		System.out.println(var);
+		
+//		HashMap obj=new  HashMap<>();
+//		obj.put("A",new Integer(1));
+//		obj.put("B",new Integer(2));
+//		
+//		obj.put("C",new Integer(3));
+//		System.out.println(obj);
+		
+		
+		
+//		String x="xyz";
+//		x.toUpperCase();
+//		String y=x.replace('Y','y');
+//		y=y+"abc";
+//		System.out.println(y);
+
+	}
+
+
